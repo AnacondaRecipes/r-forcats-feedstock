@@ -10,8 +10,8 @@ package:
 source:
   fn: forcats_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/forcats_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/forcats/forcats_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/forcats_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/forcats/forcats_{{ version }}.tar.gz
   sha256: b5bce370422d4c0ec9509249ae645373949bfbe9217cdf50dce2bfbdad9f7cd7
 
 
